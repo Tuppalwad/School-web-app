@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#ContentPlaceHolder1_cubkimg {
+  width: 98%;
+  margin: auto;
+  height: 450px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      rgba(69, 65, 65, 0.76),
+      rgba(55, 52, 52, 0.75)
+    ),
+    url("..//Contact/home_page.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#contact {
+  color: #fff;
+  font-size: 40px;
+}
+
+#ContentPlaceHolder1_cubkimg h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #fff;
+}
+#ContentPlaceHolder1_lblcontacthdng {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: black;
+  margin-top: 30px;
+}
+.heading_s1 {
+  margin-top: 30px;
+}
+
+#ContentPlaceHolder1_lblcontactpara {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: black;
+  margin-top: 30px;
+}
+
+.submit-btn {
+  border: none;
+  color: white;
+  width: 140px;
+  padding: 10px 13px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  justify-content: center;
+  margin: auto;
+  font-size: 20px;
+}
+
+.btn-div {
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.required {
+  color: red;
+}
